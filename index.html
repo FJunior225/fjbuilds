@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FJ Collins — AI Automation for Local Business</title>
+  <meta name="description" content="I build AI automations that handle the repetitive back-office work eating your team's time — so you get back to running the business." />
+  <style>
+    :root {
+      --ink: #14181f;
+      --muted: #5b6470;
+      --accent: #2f6df6;
+      --bg: #ffffff;
+      --soft: #f5f7fa;
+      --line: #e6e9ef;
+      --max: 720px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+    header { padding: 22px 0; border-bottom: 1px solid var(--line); }
+    .brand { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; }
+    .brand span { color: var(--accent); }
+
+    .hero { padding: 72px 0 56px; }
+    .hero h1 {
+      font-size: clamp(30px, 5.5vw, 46px);
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      margin: 0 0 20px;
+    }
+    .hero p { font-size: 19px; color: var(--muted); margin: 0 0 32px; max-width: 600px; }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 14px 26px;
+      border-radius: 10px;
+      transition: transform .06s ease, background .2s ease;
+    }
+    .btn:hover { background: #1f5be0; }
+    .btn:active { transform: translateY(1px); }
+
+    section { padding: 48px 0; border-top: 1px solid var(--line); }
+    h2 { font-size: 24px; letter-spacing: -0.01em; margin: 0 0 28px; }
+
+    .cards { display: grid; gap: 18px; }
+    .card {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px 24px;
+    }
+    .card h3 { margin: 0 0 6px; font-size: 17px; }
+    .card p { margin: 0; color: var(--muted); font-size: 15.5px; }
+
+    .why p { font-size: 17px; color: var(--ink); max-width: 620px; }
+    .why strong { color: var(--ink); }
+
+    .how ol { padding-left: 20px; color: var(--muted); font-size: 16px; }
+    .how li { margin-bottom: 10px; }
+    .how strong { color: var(--ink); }
+
+    .cta-final { text-align: center; padding: 56px 0 72px; }
+    .cta-final h2 { margin-bottom: 20px; }
+
+    footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 14px; }
+    footer a { color: var(--muted); }
+    @media (min-width: 620px) { .cards { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">FJ <span>Builds</span></div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="hero" style="border-top:none;">
+        <h1>Stop losing hours — and leads — to manual work.</h1>
+        <p>
+          I'm FJ Collins, a software engineer who builds AI automations that handle the
+          repetitive back-office work eating your team's time — so you get back to
+          running the business.
+        </p>
+        <a class="btn" href="#book">Book a 20-minute call</a>
+      </section>
+
+      <section>
+        <h2>Where I help</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Leads that wait too long for a reply</h3>
+            <p>Inbound calls, forms, and texts get an instant, smart response — so you stop losing business to whoever answered first.</p>
+          </div>
+          <div class="card">
+            <h3>Hours lost to data entry and paperwork</h3>
+            <p>Receipts, intake forms, statements, routine documents — handled automatically instead of by hand.</p>
+          </div>
+          <div class="card">
+            <h3>Follow-ups that fall through the cracks</h3>
+            <p>Reminders, status updates, and client check-ins that happen on their own, every time.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="why">
+        <h2>Why me</h2>
+        <p>
+          I'm a working software engineer in the AI field — <strong>not a course-watcher
+          reselling templates</strong>. I build reliable systems that actually run in your
+          business, and I measure them in hours saved and leads captured, not buzzwords.
+        </p>
+      </section>
+
+      <section class="how">
+        <h2>How it works</h2>
+        <ol>
+          <li><strong>A low-risk paid pilot.</strong> Fixed scope, clear success metric, two weeks.</li>
+          <li><strong>You only continue if it delivers.</strong> No long contracts, no lock-in.</li>
+          <li><strong>If it works, I keep it running</strong> — maintenance and improvements for a simple monthly fee.</li>
+        </ol>
+      </section>
+
+      <section class="cta-final" id="book">
+        <h2>Let's find one thing worth automating.</h2>
+        <a class="btn" href="https://calendly.com/REPLACE-ME">Book a 20-minute call</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      FJ Collins · <a href="mailto:fj@fjbuilds.com">fj@fjbuilds.com</a> · fjbuilds.com
+    </div>
+  </footer>
+</body>
+</html>
