@@ -1,6 +1,6 @@
 # fjbuilds.com
 
-Landing page for FJ Collins — AI Automation for Local Business.
+Landing page for builds page — AI Automation for Local Business.
 
 - `index.html` — the entire site (single self-contained file, no build step)
 - `business-card.md` — business card spec for the printer
